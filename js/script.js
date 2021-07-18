@@ -9,4 +9,5 @@ form.addEventListener("submit", (e) => {
     email: inputEmail.value,
   };
   localStorage.setItem("Subscribed-Promo", JSON.stringify(data));
+  alert("Cadastro realizado!");
 });
