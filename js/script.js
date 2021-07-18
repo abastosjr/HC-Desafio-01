@@ -4,9 +4,9 @@ const inputEmail = document.querySelector("#input-email");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-
-  localStorage.setItem(
-    "Subscribed-Promo",
-    `name: ${inputName.value}, email: ${inputEmail.value}`
-  );
+  let data = {
+    nome: inputName.value,
+    email: inputEmail.value,
+  };
+  localStorage.setItem("Subscribed-Promo", JSON.stringify(data));
 });
