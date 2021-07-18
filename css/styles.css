@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-section {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-one {
+  background-image: url(../assets/bk2.jpeg);
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+.section-one h3 {
+  font-size: 56px;
+}
+.section-one span {
+  color: #059505;
+  font-weight: 900;
+  font-size: 64px;
+}
+.section-one p {
+  font-size: 32px;
+  padding: 5% 10%;
+}
+.section-two {
+  background-image: url(../assets/bk.jpg);
+  height: calc(100vh - 75px);
+}
+#form-subscribe {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 25px 20px;
+  width: 350px;
+  border-radius: 8px;
+}
+#form-subscribe p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+input {
+  margin: 5px 0;
+  padding: 0 5px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 16px;
+}
+input:focus {
+  border-bottom: 3px solid #25b525;
+}
+label {
+  font-size: 16px;
+  margin-top: 5px;
+}
+#btn-submit {
+  color: white;
+  background-color: #25b525;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 40%;
+  min-width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+#btn-submit:hover {
+  background-color: #059505;
+}
+footer {
+  display: flex;
+  margin-top: auto;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height: 75px;
+}
+footer p {
+  width: 100%;
+  font-size: 12px;
+  margin: 5px;
+}
+footer a img {
+  width: 20px;
+}
+a {
+  text-decoration: none;
+  margin: 4px;
+}

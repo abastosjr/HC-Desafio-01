@@ -2,9 +2,85 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tech Day</title>
+    <meta name="author" content="Antonio B Junior" />
+    <meta
+      name="description"
+      content="Tech Day - Landing Page feita para o desafio 01 do Hiring Coders."
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="section-container background-section section-one">
+        <h3>Vem ai o <span>Tech Day</span></h3>
+        <p>
+          Um dia de grandes promoções com desconto de até 70% em produtos de
+          tecnologia e Frete Gratis para todo o Brasil
+        </p>
+      </section>
+      <section class="section-container background-section section-two">
+        <form id="form-subscribe">
+          <p>Faça seu cadastro para receber todas as novidades e promoções!</p>
+          <label for="input-name">Nome:</label>
+          <input
+            type="text"
+            name="name"
+            id="input-name"
+            placeholder="Seu nome"
+            required
+          />
+          <label for="input-email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="input-email"
+            placeholder="Seu e-mail"
+            required
+          />
+          <button type="submit" id="btn-submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Developed by Antonio B Junior</p>
+
+      <a
+        href="https://www.linkedin.com/in/abastosj/"
+        title="LinkedIn de Antonio"
+        target="_blank"
+      >
+        <img src="./assets/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a
+        href="https://github.com/abastosj"
+        title="Github de Antonio"
+        target="_blank"
+      >
+        <img src="./assets/github-square.svg" alt="Github" />
+      </a>
+      <a
+        href="https://www.facebook.com/abastosj"
+        title="Facebook de Antonio"
+        target="_blank"
+      >
+        <img src="./assets/facebook-square.svg" alt="Github" />
+      </a>
+      <a
+        href="https://www.instagram.com/juniorbastos._"
+        title="Instagram de Antonio"
+        target="_blank"
+      >
+        <img src="./assets/instagram-square.svg" alt="Github" />
+      </a>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
